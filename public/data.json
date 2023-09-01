@@ -1,0 +1,82 @@
+{
+  "name": "Shardul Parlikar",
+  "postion": "Software Devloper",
+  "codingLang1": "javaScript",
+  "codingLang2": "Vue JS",
+  "codingLang3": "React JS",
+  "expriance": [
+    {
+      "companyName": "Rudrani Infotech Pvt Ltd",
+      "position": "Software Developer",
+      "fieldOfWork": "UI , Web-development",
+      "fromDate": "Dec - 2019",
+      "toDate": "July - 2021",
+      "description": "Website for construction firms , where they can show their current projects to their clients.  Developing web pages in HTML, CSS, JS. Working under a senior developer to obtain picture perfect design as per shown in figma. Making responsive  web pages."
+    },
+    {
+      "companyName": "Quinstreet Software Private Limited",
+      "position": "Software Developer",
+      "fieldOfWork": "UI , Web-development",
+      "fromDate": "July - 2021",
+      "toDate": "Current",
+      "description": "Revenue checking portal for company employees, Where they can check all the stats from various marketing strategies like Facebook and google ads. Developing UI components from design tools like Adobe XD in Vue and Quasar. Developing functionality and interlinking of different components according to needs. Using state management tools like VueX to manage data between the application. Routing of the different parts of the application. Implementing a micro frontend on a current app. Integrating APIs with axios/fetch to show various charts and data. Using JIRA for project tracking and Agile Methodology for project development. Perforce a git tool to manage version control. "
+    },
+    {
+      "companyName": "Shiksha Sopan",
+      "freelancing": true,
+      "position": "Web-development (Freelancing)",
+      "fromDate": "Mar-2023",
+      "toDate": "July - 2023",
+      "certificate": "",
+      "description": "Exam portal for students where students can perform time based exams .  22k students gave exam at a time. Organization is holded by prof HC Verma (padmashree ). Worked on his requirements. Worked as an individual contractor for this project. Technology used here was React , Typescript , Tailwind ,Css"
+    }
+  ],
+  "skills": [
+    {
+      "skillName": "JavaScript",
+      "rating": 8
+    },
+    {
+      "skillName": "Vue Js",
+      "rating": 8
+    },
+    {
+      "skillName": "React JS",
+      "rating": 8
+    },
+    {
+      "skillName": "Micro-frontend",
+      "rating": 8
+    },
+    {
+      "skillName": "Css",
+      "rating": 8
+    },
+    {
+      "skillName": "NodeJS",
+      "rating": 5
+    },
+    {
+      "skillName": "ExpressJS",
+      "rating": "3"
+    },
+    {
+      "skillName": "TypeSctipt",
+      "rating": "3"
+    },
+    {
+      "skillName": "MongoDB",
+      "rating": "3"
+    }
+  ],
+  "otherSkills": [
+    "Next",
+    "Nuxt",
+    "Quasar",
+    "Bootstrap",
+    "tailwind",
+    "State Management ( Vuex)",
+    "Agile Methodology",
+    "Version Control ( Perforce, Github)"
+  ]
+}

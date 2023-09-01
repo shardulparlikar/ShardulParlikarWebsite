@@ -1,0 +1,205 @@
+/*
+* Animation styles
+*/
+#editor-window,
+#app-window {
+  opacity: 0;
+}
+body {
+  background-color: #eaecef;
+}
+
+.computer-screen {
+  fill: #1f3969;
+}
+
+#top-book,
+#middle-book,
+#bottom-book,
+#pencil2,
+#pencil1,
+#new-book,
+#cup {
+  transform: translateY(-200vh);
+}
+
+#name-box {
+  transform: translateX(+200vh);
+}
+
+
+
+/*
+* Basic doc styles
+*/
+svg-box {
+  background-color: #eaecef;
+}
+
+/*
+* SVG Styles
+*/
+.st0 {
+  fill: #c9c9c9;
+}
+.st1 {
+  fill: #cecece;
+}
+.st2 {
+  fill: #ffffff;
+}
+.st3 {
+  fill: none;
+  stroke: #1f3969;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st4 {
+  fill: #ff3e3e;
+}
+
+.st5 {
+  opacity: 0.28;
+  fill: #1f3969;
+  stroke: #1f3969;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  enable-background: new;
+}
+.st6 {
+  fill: #50b56f;
+}
+.stYellow {
+  fill: #F4C430;
+}
+.st7 {
+  fill: #5f5aff;
+}
+.st8 {
+  fill: #f6f9fd;
+}
+.st9 {
+  fill: #bfcfe2;
+}
+.st10 {
+  fill: #2d425e;
+}
+.st11 {
+  fill: #d0ddf0;
+}
+.st12 {
+  fill: #1f3969;
+}
+.st13 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st14 {
+  fill: none;
+  stroke: #7bffa0;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st15 {
+  fill: none;
+  stroke: #9169ff;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st16 {
+  fill: none;
+  stroke: #ffc47d;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st17 {
+  fill: none;
+  stroke: #ff5757;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st18 {
+  fill: #2aa1ff;
+}
+
+.st19 {
+  opacity: 0.34;
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  enable-background: new;
+}
+.st20 {
+  opacity: 0.34;
+}
+.st21 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st22 {
+  fill: #ffa364;
+}
+.st23 {
+  fill: none;
+  stroke: #1f3969;
+  stroke-width: 4.0001;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10.0002;
+}
+.st24 {
+  fill: #ff5252;
+}
+.st25 {
+  fill: none;
+  stroke: #1f3969;
+  stroke-width: 3.9998;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 9.9996;
+}
+.st26 {
+  fill: #6567c3;
+}
+.shape {
+  stroke-dasharray: 220 540;
+  stroke-dashoffset: -474;
+  stroke-width: 3px;
+  fill: transparent;
+  stroke: #6567c3;
+  transition: stroke-width 4s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text-space-4 {
+  letter-spacing: 4px;
+}
+.text-space-2 {
+  letter-spacing: 2px;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 14;
+  stroke-dasharray: 20, 4;
+}
