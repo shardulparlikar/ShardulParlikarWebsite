@@ -1,0 +1,17 @@
+#card{
+    position: relative;
+    cursor: pointer;
+}
+
+#card:hover  {
+    content: 'Hi';
+    opacity: 0.15;
+}
+#card:hover::after  {
+    content: url('../../../../public/folder.svg');
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}

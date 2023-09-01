@@ -7,6 +7,7 @@
   "expriance": [
     {
       "companyName": "Rudrani Infotech Pvt Ltd",
+      "id" : 1 ,
       "position": "Software Developer",
       "fieldOfWork": "UI , Web-development",
       "fromDate": "Dec - 2019",
@@ -16,6 +17,7 @@
     {
       "companyName": "Quinstreet Software Private Limited",
       "position": "Software Developer",
+      "id" : 2 ,
       "fieldOfWork": "UI , Web-development",
       "fromDate": "July - 2021",
       "toDate": "Current",
@@ -24,6 +26,7 @@
     {
       "companyName": "Shiksha Sopan",
       "freelancing": true,
+      "id" : 3 ,
       "position": "Web-development (Freelancing)",
       "fromDate": "Mar-2023",
       "toDate": "July - 2023",
