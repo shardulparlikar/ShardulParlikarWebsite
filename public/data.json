@@ -4,34 +4,64 @@
   "codingLang1": "javaScript",
   "codingLang2": "Vue JS",
   "codingLang3": "React JS",
+  "college": "M.G.M. JahawarLal Nehru college of Engineering",
+  "degree": "Bachelors of Engineering",
+  "degreeYear": "2019",
+  "phoneNo": "7030154925",
+  "phoneNoExt": "+91",
+  "linkedLink": "https://www.linkedin.com/in/shardul-parlikar-059459188/",
+  "gitHubLink": "https://github.com/shardulparlikar",
   "expriance": [
     {
-      "companyName": "Rudrani Infotech Pvt Ltd",
-      "id" : 1 ,
+      "companyName": "Rudrani Infotech, Pvt. Ltd.",
+      "id": 1,
       "position": "Software Developer",
       "fieldOfWork": "UI , Web-development",
+      "industry": "Construction",
       "fromDate": "Dec - 2019",
       "toDate": "July - 2021",
-      "description": "Website for construction firms , where they can show their current projects to their clients.  Developing web pages in HTML, CSS, JS. Working under a senior developer to obtain picture perfect design as per shown in figma. Making responsive  web pages."
+      "description": [
+        "Website for construction firms , where they can show their current projects to their clients.",
+        "Developing web pages in HTML, CSS, JS. Working under a senior developer to obtain picture perfect design as per shown in figma.",
+        "Developing web pages in HTML, CSS, JS. Working under a senior developer to obtain picture perfect design as per shown in figma. Making responsive  web pages."
+      ]
     },
     {
       "companyName": "Quinstreet Software Private Limited",
       "position": "Software Developer",
-      "id" : 2 ,
+      "id": 2,
+      "industry": "Digital Media",
       "fieldOfWork": "UI , Web-development",
       "fromDate": "July - 2021",
       "toDate": "Current",
-      "description": "Revenue checking portal for company employees, Where they can check all the stats from various marketing strategies like Facebook and google ads. Developing UI components from design tools like Adobe XD in Vue and Quasar. Developing functionality and interlinking of different components according to needs. Using state management tools like VueX to manage data between the application. Routing of the different parts of the application. Implementing a micro frontend on a current app. Integrating APIs with axios/fetch to show various charts and data. Using JIRA for project tracking and Agile Methodology for project development. Perforce a git tool to manage version control. "
+      "description": [
+        "Revenue checking portal for company employees, Where they can check all the stats from various marketing strategies like Facebook and google ads.",
+        "Developing UI components from design tools like Adobe XD in Vue and Quasar.",
+        "Developing functionality and interlinking of different components according to needs.",
+        "Using state management tools like VueX to manage data between the application",
+        "Routing of the different parts of the application",
+        "Implementing a micro frontend on a current app .",
+        "Integrating APIs with axios/fetch to show various charts and data.",
+        "Using JIRA for project tracking and Agile Methodology for project development.",
+        "Perforce a git tool to manage version control."
+      ]
     },
     {
       "companyName": "Shiksha Sopan",
       "freelancing": true,
-      "id" : 3 ,
+      "id": 3,
+      "industry": "Education Tech",
       "position": "Web-development (Freelancing)",
+      "fieldOfWork": "UI , Web-development",
       "fromDate": "Mar-2023",
       "toDate": "July - 2023",
       "certificate": "",
-      "description": "Exam portal for students where students can perform time based exams .  22k students gave exam at a time. Organization is holded by prof HC Verma (padmashree ). Worked on his requirements. Worked as an individual contractor for this project. Technology used here was React , Typescript , Tailwind ,Css"
+      "description": [
+        "Exam portal for students where students can perform time based exams .  22k students gave exams at a time.",
+        "Organization is holded by prof HC Verma (padmashree ). Worked on his requirements",
+        "Worked as an individual contractor for this project.",
+        "Technology used here was React , Typescript , Tailwind ,Css"
+      ]
     }
   ],
   "skills": [
@@ -65,6 +95,38 @@
     },
     {
       "skillName": "TypeSctipt",
+      "rating": "3"
+    },
+    {
+      "skillName": "Next",
+      "rating": "3"
+    },
+    {
+      "skillName": "Nuxt",
+      "rating": "3"
+    },
+    {
+      "skillName": "Quasar",
+      "rating": "3"
+    },
+    {
+      "skillName": "Bootstrap",
+      "rating": "3"
+    },
+    {
+      "skillName": "tailwind",
+      "rating": "3"
+    },
+    {
+      "skillName": "State Management ( Vuex)",
+      "rating": "3"
+    },
+    {
+      "skillName": "Agile Methodology",
+      "rating": "3"
+    },
+    {
+      "skillName": "Version Control ( Perforce, Github)",
       "rating": "3"
     },
     {

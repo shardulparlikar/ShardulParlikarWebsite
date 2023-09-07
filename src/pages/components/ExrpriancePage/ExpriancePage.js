@@ -28,17 +28,19 @@ const ExpriancePage = () => {
     20: "/118macbook.png",
   };
 
+  const [openPopupIndex, setOpenPopupIndex] = useState(false);
+  const [exp, setExp] = useState({});
 
-  const [openPopupIndex, setOpenPopupIndex] = useState(null);
-
-  function openPopup(index) {
-    setOpenPopupIndex(index)
+  function openPopup(exp, image) {
+    document.body.classList.add("overflow-hidden");
+    setOpenPopupIndex(true);
+    setExp({ ...exp, image: image });
   }
 
   const closePopup = () => {
-    setIsPopupOpen(null);
+    setOpenPopupIndex(false);
+    document.body.classList.remove("overflow-hidden");
   };
-
 
   return (
     <>
@@ -53,7 +55,10 @@ const ExpriancePage = () => {
               key={index}
               className="bg-light-blue h-auto shadow-lg flex flex-col w-[18rem] rel "
             >
-              <div id="card" onClick={() => openPopup(exp.id)}>
+              <div
+                id="card"
+                onClick={() => openPopup(exp, exp.freelancing ? "/freelancing.png" : imageMap[index + 1])}
+              >
                 <Image
                   src={
                     exp.freelancing ? "/freelancing.png" : imageMap[index + 1]
@@ -64,10 +69,6 @@ const ExpriancePage = () => {
                   width={300}
                 />
               </div>
-              
-             {openPopupIndex === exp.id && (<PopupBox isOpen={openPopupIndex} onClose={closePopup} customProp={exp}></PopupBox>)}
-
-
 
               <div>
                 <h1 className="text-lg tracking-wide text-center capitalize font-monster h-16 pt-4">
@@ -85,6 +86,12 @@ const ExpriancePage = () => {
             </div>
           ))}
         </div>
+
+        <PopupBox
+          isOpen={openPopupIndex}
+          onClose={closePopup}
+          customProp={exp}
+        ></PopupBox>
       </div>
     </>
   );
