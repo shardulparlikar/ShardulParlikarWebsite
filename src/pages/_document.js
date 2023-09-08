@@ -5,6 +5,7 @@ export default function Document() {
   return (
     <Html lang="en" className="dark">
       <Head>
+        <title>Shardul Parlikar</title>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
