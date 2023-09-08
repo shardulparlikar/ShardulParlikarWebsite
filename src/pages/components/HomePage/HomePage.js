@@ -134,7 +134,7 @@ const HomePage = () => {
           </g>
 
           <g id="top-book">
-            // these are line inside books
+            {/* // these are line inside books */}
             <line
               id="XMLID_164_"
               className="st3"
@@ -151,21 +151,21 @@ const HomePage = () => {
               x2="383.9"
               y2="513.2"
             />
-            // this path is for red line in 1st book
+            {/* // this path is for red line in 1st book */}
             <path
               id="XMLID_161_"
               className="st4"
               d="M285.9,525.3c-9.6,0-17.3-7.8-17.3-17.3s7.8-17.3,17.3-17.3h99.7l4-6H285.9
                                                  c-12.9,0-23.3,10.5-23.3,23.3l0,0c0,12.9,10.5,23.3,23.3,23.3h103.7l-4-6H285.9z"
             />
-            // this path is for blue color line in 1st book
+            {/* // this path is for blue color line in 1st book */}
             <path
               id="XMLID_182_"
               className="st3"
               d="M285.9,525.3c-9.6,0-17.3-7.8-17.3-17.3s7.8-17.3,17.3-17.3h99.7l4-6H285.9
                                                  c-12.9,0-23.3,10.5-23.3,23.3l0,0c0,12.9,10.5,23.3,23.3,23.3h103.7l-4-6H285.9z"
             />
-            // these is for book shadow
+            {/* // these is for book shadow */}
             <rect
               id="top-book-computer-shadow"
               x="348.9"
@@ -177,14 +177,14 @@ const HomePage = () => {
           </g>
 
           <g id="middle-book">
-            // this is for green color of middle book
+            {/* // this is for green color of middle book */}
             <path
               id="XMLID_157_"
               className="st6"
               d="M200.9,617.8H189c-3.7,0-6.8-3-6.8-6.8v-25c0-3.7,3-6.8,6.8-6.8h189.9c3.7,0,6.8,3,6.8,6.8
                                                  v25C385.7,614.8,382.7,617.8,378.9,617.8z"
             />
-            // this is for text of middle book
+            {/* // this is for text of middle book */}
             <text
               x="220"
               y="605.5"
@@ -194,14 +194,14 @@ const HomePage = () => {
             >
               {config.codingLang2}
             </text>
-            // this is for blue line outside green box in middle book
+            {/* // this is for blue line outside green box in middle book */}
             <path
               id="XMLID_146_"
               className="st3"
               d="M378.9,617.8H189c-3.7,0-6.8-3-6.8-6.8v-25c0-3.7,3-6.8,6.8-6.8h189.9c3.7,0,6.8,3,6.8,6.8
                                                  v25C385.7,614.8,382.7,617.8,378.9,617.8z"
             />
-            // this is for middle book shadow
+            {/* // this is for middle book shadow */}
             <path
               id="middle-book-computer-shadow"
               className="st5"
@@ -211,14 +211,14 @@ const HomePage = () => {
           </g>
 
           <g id="new-book">
-            // this is for yellow color of new book
+            {/* // this is for yellow color of new book */}
             <path
               id="XMLID_157_"
               className="stYellow"
               d="M378.9,573.8H189c-3.7,0-6.8-3-6.8-6.8v-25c0-3.7,3-6.8,6.8-6.8h189.9c3.7,0,6.8,3,6.8,6.8
                                                  v25C385.7,614.8,382.7,617.8,378.9,617.8z"
             />
-            // this is for text of new book
+            {/* // this is for text of new book */}
             <text
               x="220"
               y="560.5"
@@ -228,14 +228,14 @@ const HomePage = () => {
             >
               {config.codingLang1}
             </text>
-            // this is for blue line outside yello of new book
+            {/* // this is for blue line outside yello of new book */}
             <path
               id="XMLID_146_"
               className="st3"
               d="M378.9,573.8H189c-3.7,0-6.8-3-6.8-6.8v-25c0-3.7,3-6.8,6.8-6.8h189.9c3.7,0,6.8,1,6.8,2.8
                                                  v25C385.7,614.8,382.7,617.8,378.9,617.8z"
             />
-            // this is for shadow of new book
+            {/* // this is for shadow of new book */}
             <rect
               id="new-book-computer-shadow"
               x="348.9"
