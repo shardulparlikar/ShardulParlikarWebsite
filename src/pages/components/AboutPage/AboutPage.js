@@ -6,141 +6,132 @@ import { faArrowDown, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import config from "../../../../public/data.json";
 
 const AboutPage = () => {
-  const downloadCv = () => {
-    // Perform the download logic here
-    const link = document.createElement("a");
-
-    link.href = "/ShardulParlikar.pdf";
-    link.download = "Shardul Parlikar";
-    link.click();
-  };
-
-  function myhref(web) {
-    if (typeof window !== "undefined") {
-      // Client-side-only code
-      window.open(web);
-    }
-  }
   return (
     <>
-      <div className="h-auto w-screen bg-gray-bg">
-        <div className="flex justify-around">
-          <Image
-            height={500}
-            width={700}
-            src="/shardulModified.png"
-            alt="shardul"
-            className="h-screen"
-          />
-          <div className="min-w-[40rem]">
-            <h2 className="text text-6xl font-monster uppercase mt-20 text-end">
+      <div className="w-screen bg-light-blue">
+        <div className="xl:flex justify-around items-center">
+          <h2 className="text text-6xl font-monster uppercase mt-12 xl:hidden block text-center">
+            About
+          </h2>
+          <div className="xl:h-[40rem] xl:max-w-[30rem] rounded-full h-48 max-w-[12rem] mx-auto xl:mx-0  my-4">
+            <Image
+              height={800}
+              width={700}
+              src="/sdp.png"
+              alt="shardul"
+              className="h-full xl:rounded-none rounded-full"
+              objectFit="contain"
+            />
+          </div>
+          <div className="max-w-[40rem] xl:text-end px-6 xl:p-0">
+            <h2 className="text text-6xl font-monster uppercase mt-12 hidden xl:block">
               About
             </h2>
 
-            <div className="mt-16">
-              <div className="text-end">
-                <span className="text-3xl text-neutral-600 text-end">
+            <div className="mt-12">
+              <div className="">
+                <span className="xl:text-2xl text-lg  text-neutral-600">
                   Skills
                 </span>
                 <FontAwesomeIcon
                   icon={faArrowDown}
                   className="text-neutral-600 h-5 ml-2"
                 />
-                <div className="flex mt-4 justify-end flex-wrap max-w-3xl">
+                <div className="flex mt-4 xl:justify-end flex-wrap max-w-3xl">
                   {config.skills.map((skill, index) => (
-                    <div
-                      className="text-2xl font-monster font-medium"
+                    <p
+                      className="xl:text-xl text-base font-monster font-medium"
                       key={index}
                     >
                       {skill.skillName} ,
-                    </div>
+                    </p>
                   ))}
                 </div>
               </div>
 
-              <div className="text-end mt-12">
-                <span className="text-3xl text-neutral-600 text-end">
+              <div className=" mt-8">
+                <span className="xl:text-2xl text-lg  text-neutral-600 ">
                   Education
                 </span>
                 <FontAwesomeIcon
                   icon={faArrowDown}
                   className="text-neutral-600 h-5 ml-2"
                 />
-                <div className="text-2xl font-monster font-medium mt-4">
+                <div className="xl:text-xl text-base font-monster font-medium mt-4">
                   {config.degree}
                 </div>
-                <div className="text-2xl font-monster font-medium">
+                <div className="xl:text-xl text-base  font-monster font-medium mt-2">
                   {config.college}
                 </div>
-                <div className="text-xl font-monster font-medium">
+                <div className="xl:text-xl text-base font-monster font-medium">
                   {config.degreeYear}
                 </div>
               </div>
 
-              <div className="text-end mt-12">
-                <span className="text-3xl text-neutral-600 text-end">
+              <div className=" mt-4">
+                <span className="xl:text-2xl text-lg  text-neutral-600">
                   Phone No
                 </span>
                 <FontAwesomeIcon
                   icon={faArrowDown}
                   className="text-neutral-600 h-5 ml-2"
                 />
-                <div className="flex justify-end">
-                  <div className="text-2xl font-monster font-medium mt-4">
+                <div className="flex xl:justify-end">
+                  <div className="xl:text-xl text-base font-monster font-medium mt-4">
                     {config.phoneNoExt}-
                   </div>
-                  <div className="text-2xl font-monster font-medium mt-4">
+                  <div className="xl:text-xl text-base font-monster font-medium mt-4">
                     {config.phoneNo}
                   </div>
                 </div>
               </div>
 
-              <div
-                className="text-end mt-12 cursor-pointer"
-                onClick={downloadCv}
+              <a
+                className=" mt-8 cursor-pointer flex xl:justify-end gap-2 xl:text-2xl text-lg  font-monster"
+                href="/ShardulParlikar.pdf"
+                download="Shardul Parlikar"
               >
-                <div className="flex justify-end items-center">
-                  <FontAwesomeIcon
-                    icon={faArrowRight}
-                    className="text-neutral-600 h-8"
-                  />
-                  <span className="text-4xl ml-4 text-neutral-600 text-end">
-                    Download Full Resume
-                  </span>
-                </div>
-              </div>
-
-              <div className="mt-20 text-end ">
                 <FontAwesomeIcon
-                  icon={faArrowDown}
-                  className="text-neutral-600 h-5 ml-2"
+                  icon={faArrowRight}
+                  className="text-neutral-600 h-8"
                 />
-                <span className="text-3xl text-neutral-600 text-end">
-                  Follow Me
-                </span>
-                <div className="flex justify-end mt-8">
-                  <div
-                    className="flex items-center ml-4 cursor-pointer  relative group"
-                    onClick={() => myhref(config.linkedLink)}
+                Download Full Resume
+              </a>
+
+              <div className="mt-4 ">
+                <div className="flex xl:justify-end  items-center gap-2">
+                  <p className="xl:text-2xl text-lg  text-neutral-600 ">
+                    Follow Me
+                  </p>
+                  <FontAwesomeIcon
+                    icon={faArrowDown}
+                    className="text-neutral-600 h-5 ml-2"
+                  />
+                </div>
+                <div className="flex xl:justify-end mt-4 ">
+                  <a
+                    className="flex items-center justify-center ml-4 cursor-pointer w-8 h-8 rounded-full border-2 border-black"
+                    href={config.linkedLink}
+                    target="_blank"
                   >
-                    <div className="w-8 h-8 rounded-full border-2 border-black flex justify-center items-center ">
-                      <div className="fa-brands fa-linkedin-in bg-blend-color-dodge"></div>
-                    </div>
-                    <span className="group-hover:opacity-100 opacity- text-lg py-4 px-4 absolute left-1/2 top-3 transform -translate-x-1/2 transition-opacity">
-                      LinkedIn
-                    </span>
-                  </div>
-                  <div
-                    className="flex items-center ml-24 cursor-pointer  relative group"
-                    onClick={() => myhref(config.gitHubLink)}
+                    <i className="fa-brands fa-linkedin-in text-xl"></i>
+                  </a>
+
+                  <a
+                    className="flex items-center justify-center ml-4 cursor-pointer w-8 h-8 rounded-full border-2 border-black"
+                    href={config.gitHubLink}
+                    target="_blank"
                   >
-                    <div className="w-8 h-8 rounded-full border-2 border-black flex justify-center items-center ">
-                      <div className="fa-brands fa-github bg-blend-color-dodge"></div>
-                    </div>
-                    <span className="group-hover:opacity-100 opacity- text-lg py-4 px-4 absolute left-1/2 top-3 transform -translate-x-1/2 transition-opacity">
-                      GitHub
-                    </span>
-                  </div>
+                    <i className="fa-brands fa-github text-xl"></i>
+                  </a>
+
+                  <a
+                    className="flex items-center justify-center ml-4 cursor-pointer w-8 h-8 rounded-full border-2 border-black"
+                    href={`mailto:${config.email}`}
+                    target=""
+                  >
+                    <i className="fa-regular fa-envelope text-xl"></i>
+                  </a>
                 </div>
               </div>
             </div>

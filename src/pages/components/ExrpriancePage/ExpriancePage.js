@@ -44,12 +44,12 @@ const ExpriancePage = () => {
 
   return (
     <>
-      <div className="h-auto w-auto pb-60 bg-white flex flex-col items-center gap-20">
+      <div className="h-auto w-auto pb-60 bg-white-bg flex flex-col items-center gap-20">
         <h1 className="pt-20 text-4xl tracking-wide text-center capitalize font-monster">
           experience and Portfolio
         </h1>
 
-        <div className="flex flex-wrap gap-12 text-center items-center w-[62rem]">
+        <div className="flex xl:flex-row flex-col flex-wrap gap-12 text-center items-center max-w-[62rem]">
           {config.expriance.map((exp, index) => (
             <div
               key={index}
