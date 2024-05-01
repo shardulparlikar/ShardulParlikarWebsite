@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/next-script-for-ga */
+/* eslint-disable react/no-unescaped-entities */
 import { Html, Head, Main, NextScript } from "next/document";
 
 
@@ -5,6 +7,14 @@ export default function Document() {
   return (
     <Html lang="en" className="dark">
       <Head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-CWZ26WQ9XB"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-CWZ26WQ9XB');
+      </script>
         <title>Shardul Parlikar</title>
         <link
           rel="stylesheet"
