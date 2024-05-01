@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/next-script-for-ga */
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
-
 
 export default function Document() {
   return (
@@ -50,13 +50,20 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
           rel="stylesheet"
         ></link>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-CWZ26WQ9XB" onLoad={()=> {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-CWZ26WQ9XB');
-        }}/>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-CWZ26WQ9XB"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-CWZ26WQ9XB');
+            `,
+          }}
+        />
       </Head>
       <body className="dark">
         <Main />
