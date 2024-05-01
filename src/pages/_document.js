@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/next-script-for-ga */
-/* eslint-disable react/no-unescaped-entities */
 import { Html, Head, Main, NextScript } from "next/document";
 
 
